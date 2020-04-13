@@ -21,7 +21,7 @@ int main(void)
     }
 }
 
-int get_positive_int(string prompt)
+int get_positive_int(string prompt) 
 {
     int n;
     do
