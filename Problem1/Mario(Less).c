@@ -31,3 +31,4 @@ int get_positive_int(string prompt)
     while (n < 1 || n > 8);
     return n;
 }
+
