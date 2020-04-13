@@ -20,7 +20,7 @@ int main(void)
         printf("\n");
     }
 }
-
+ 
 int get_positive_int(string prompt) 
 {
     int n;
