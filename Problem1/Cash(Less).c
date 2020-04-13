@@ -23,7 +23,7 @@ int change(int cents)
 float get_positive_float(string prompt)
 {
     float n;
-    do
+    do 
     {
         n = get_float("%s", prompt);
     }
