@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Exercise</title>
+    <style>
+      table {
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
+
+      td {
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+
+    <table>
+      <tr>
+        <td><input value="Team 1"></td>
+        <td><input value="Team 2"></td>
+      </tr>
+      <tr>
+        <td id="score1">0</td>
+        <td id="score2">0</td>
+      </tr>
+      <tr>
+        <td>
+          <button id="team1Point">+1</button>
+          <button id="team1-Point">-1</button>
+        </td>
+        <td>
+          <button id="team2Point">+1</button>
+          <button id="team2-Point">-1</button>
+        </td>
+      </tr>
+    </table>
+
+     <button id="reset">RESET</button>
+
+    <script>
+      let team1 = 0;
+      let team2 = 0;
+
+      document.querySelector('#team1Point').onclick = function() {
+        let score1 = document.querySelector('#score1');
+        let score2 = document.querySelector('#score2');
+        team1 = team1 + 1;
+        score1.innerHTML = team1;
+        if(team1 === 10){
+          alert("Team 1 is winner!");
+          score1.innerHTML = 0;
+          score2.innerHTML = 0;
+          team1 = 0;
+          team2 = 0;
+        }
+      }
+
+      document.querySelector('#team1-Point').onclick = function() {
+        if (team1 > 0){
+          let score = document.querySelector('#score1');
+          team1 = team1 - 1;
+          score.innerHTML = team1;
+        }
+
+      }
+
+      document.querySelector('#team2Point').onclick = function() {
+        let score1 = document.querySelector('#score1');
+        let score2 = document.querySelector('#score2');
+        team2 = team2 + 1;
+        score2.innerHTML = team2;
+        if (team2 === 10){
+          alert("Team 2 is winner!");
+          score1.innerHTML = 0;
+          score2.innerHTML = 0;
+          team1 = 0;
+          team2 = 0;
+        }
+      }
+
+      document.querySelector('#team2-Point').onclick = function() {
+        if (team2 > 0){
+          let score = document.querySelector('#score2');
+          team2 = team2 - 1;
+          score.innerHTML = team2;
+        }
+      }
+
+      document.querySelector('#reset').onclick = function() {
+        let score1 = document.querySelector('#score1');
+        let score2 = document.querySelector('#score2');
+        score1.innerHTML = 0;
+        score2.innerHTML = 0;
+        team1 = 0;
+        team2 = 0;
+      }
+    </script>
+  </body>
+</html>
