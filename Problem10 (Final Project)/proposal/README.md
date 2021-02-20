@@ -6,8 +6,7 @@ ThanoFit
 
 ## In just a sentence or two, summarize your project. (E.g., "A website that lets you buy and sell stocks.")
 
-A web-based application that lets you calculate your BMI (Body Mass Index), TDEE, Body Fat and there are 2 modul in these app
-namely design exercise program and exercise suggestions.
+A web-based application that lets you calculate your BMI (Body Mass Index), TDEE, Body Fat.
 
 ## In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
 
