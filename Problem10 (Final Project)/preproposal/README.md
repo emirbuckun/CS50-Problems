@@ -4,6 +4,7 @@
 
 * Programming a game using C# scripts from Unity.
 * Programming a web-based application using HTML, CSS, JavaScript, Python and SQL.
+* Programming a web-based application using HTML, CSS, JavaScript, .NET Core and SQL.
 
 ## If you plan to collaborate with one or two classmates, what are their names, and who are their section leaders?
 
