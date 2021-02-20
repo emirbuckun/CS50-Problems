@@ -11,8 +11,7 @@ namely design exercise program and exercise suggestions.
 
 ## In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
 
-In this app, you can calculate your BMI, TDEE, Body Fat values. In addition, there are 2 modul and first, there is a platform that you can design
-a exercise program to yourself; second, there is a platform that you can learn and look new exercises from exercise suggestions.
+In this app, you can calculate your BMI, TDEE, Body Fat values.
 
 ## If planning to combine CS50's final project with another course's final project, with which other course? And which aspect(s) of your proposed project would relate to CS50, and which aspect(s) would relate to the other course?
 
@@ -30,8 +29,7 @@ If you can clearly log in and succesfully calculate your TDEE, BMI, Body Fat val
 
 ### In a sentence (or list of features), define a BEST outcome for your final project. I.e., what do you HOPE to accomplish before the final project's deadline?
 
-If you can clearly log in, succesfully calculate your TDEE, BMI, Body Fat values and use design exercise program modul, exercise suggestion modul;
-this is enough for best outcome for my final project.
+If you can clearly log in and succesfully calculate your TDEE, BMI, Body Fat values; this is enough for better outcome for my final project.
 
 ## In a paragraph or more, outline your next steps. What new skills will you need to acquire? What topics will you need to research? If working with one of two classmates, who will do what?
 
